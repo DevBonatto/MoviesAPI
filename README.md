@@ -1,5 +1,5 @@
-# Creating My First API
-This project is about the creation of an API about movies.
+# Movies API
+This project involves the creation of a Movies API, which can be used to interact with the database using HTTP methods.
 
 ## 📚 Learnings
 - Configuration of Node.js
