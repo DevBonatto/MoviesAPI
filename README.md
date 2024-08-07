@@ -31,7 +31,7 @@ This project involves the creation of a Movies API, which can be used to interac
 ## ▶️ Running
 Clone the project with:
 ```bash
-  git clone https://github.com/DevBonatto/FirstAPI.git
+  git clone https://github.com/DevBonatto/MoviesAPI.git
 ```
 
 Then use this command to install the dependencies:
