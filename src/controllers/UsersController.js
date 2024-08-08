@@ -22,7 +22,7 @@ class UsersController {
       password: hashedPassword
     })
 
-    res.status(201).json( { name, email, password } )
+    return res.status(201).json( { name, email, password } )
   }
 
   static async update(req, res) {
@@ -76,7 +76,7 @@ class UsersController {
       updated_at: new Date() 
     })
 
-    res.status(200).json()
+    return res.status(200).json()
   }
 }
 

@@ -18,10 +18,30 @@ class NotesController {
         user_id
       }
     })
-    
+
     await knex("movie_tags").insert(tagsInsert)
 
-    res.status(200).json()
+    return res.status(200).json()
+  }
+
+  static async show(req, res) {
+    const { id } = req.params
+
+    const note = await knex("movie_notes").where({ id }).first()
+    const tags = await knex("movie_tags").where({ note_id: id }).orderBy("name")
+
+    res.status(200).json({ 
+      note,
+      tags
+     })
+  }
+
+  static async delete(req, res) {
+    const { id } = req.params
+
+    await knex("movie_notes").where({ id }).delete()
+
+    return res.status(200).json()
   }
 }
 
