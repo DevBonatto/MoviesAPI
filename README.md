@@ -4,16 +4,27 @@ This project involves the creation of a Movies API, which can be used to interac
 ## 📚 Learnings
 - Configuration of Node.js
 - How to use and configure package.json
-- NPM & NPX
+- NPM
 - Request/Response
 - Node Express
+- Methods: GET, POST
 - Nodemon
+- APIs RESTful
+- Clean Code
 - Query Params
 - Controllers
 - Project Architecture
 - HTTP Codes
+- Middleware
+- Utils (Errors)
 - Database Connection
+- C.R.U.D
+- Creating Users 
+- Hashed Password
+- Query Builder
+- Knex.js
 - Migrations
+- Commands on SQL using Knex
 
 ## 🚀 Technologies/Tools
 - JavaScript
