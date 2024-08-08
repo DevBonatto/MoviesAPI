@@ -24,6 +24,13 @@ class UsersController {
 
     res.status(201).json( { name, email, password } )
   }
+
+  static async update(req, res) {
+    const { name, email, password, old_password } = req.body
+    const { id } = req.params
+
+    res.status(200).json({ name, email, password, old_password, id })
+  }
 }
 
 module.exports = UsersController
