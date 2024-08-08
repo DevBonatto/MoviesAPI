@@ -1,8 +1,17 @@
+const knex = require("../database/knex")
+
 class UsersController {
-  static async show(req, res) {
+  static async create(req, res) {
+    const { name, email, password } = req.body
     const { user_id } = req.params
 
-    res.status(200).json( user_id )
+    await knex("users").insert({
+      name,
+      email,
+      password
+    })
+
+    res.status(201).json( { user_id, name, email, password } )
   }
 }
 
