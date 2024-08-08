@@ -12,7 +12,7 @@ class UsersController {
       .where({ email })
       .first()
 
-    if(thisEmailAlreadyExists){
+    if(thisEmailAlreadyExists) {
       throw new AppError("Esse email já está cadastrado no sistema!")
     }
       
