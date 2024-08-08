@@ -10,7 +10,7 @@ class UsersController {
       password
     })
 
-    res.status(201).json( { user_id, name, email, password } )
+    res.status(201).json( { name, email, password } )
   }
 }
 
