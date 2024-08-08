@@ -43,6 +43,14 @@ class NotesController {
 
     return res.status(200).json()
   }
+
+  static async index(req, res) {
+    const { rating } = req.query
+
+    const moviesWithSpecificRating = await knex("movie_notes").where({ rating: rating })
+
+    return res.status(200).json({ moviesWithSpecificRating })
+  }
 }
 
 module.exports = NotesController
