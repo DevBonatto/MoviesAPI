@@ -23,6 +23,7 @@ This project involves the creation of a Movies API, which can be used to interac
 - Hashed Password
 - Query Builder
 - Knex.js
+- Bcrypt.js
 - Migrations
 - Commands on SQL using Knex
 
