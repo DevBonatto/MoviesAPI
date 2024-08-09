@@ -6,9 +6,7 @@ This project involves the creation of a Movies API, which can be used to interac
 - How to use and configure package.json
 - NPM
 - Request/Response
-- Node Express
 - Methods: GET, POST
-- Nodemon
 - APIs RESTful
 - Clean Code
 - Query Params
@@ -22,15 +20,16 @@ This project involves the creation of a Movies API, which can be used to interac
 - Creating Users 
 - Hashed Password
 - Query Builder
-- Knex.js
-- Bcrypt.js
 - Migrations
 - Commands on SQL using Knex
 
 ## 🚀 Technologies/Tools
 - JavaScript
 - Node.js
+- Node Express
+- Nodemon
 - Knex.js
+- Bcrypt.js
 - Beekeeper Studio
 - SQLite
 
