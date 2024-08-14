@@ -1,5 +1,5 @@
-# Movies API
-This project involves the creation of a Movies API, which can be used to interact with the database using HTTP methods.
+# MoviesAPI
+This project involves the creation of a MoviesAPI, which can be used to interact with the database and the MoviesUI project.
 
 ## 📚 Learnings
 - Configuration of Node.js
