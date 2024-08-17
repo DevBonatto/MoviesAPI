@@ -20,7 +20,7 @@ This project involves the creation of an API, which can be used to interact with
 - Creating Users 
 - Hashed Password
 - Query Builder
-- Migrations
+- Migrations SQL
 - Commands on SQL using Knex
 
 ## 🚀 Technologies/Tools
